@@ -1,0 +1,10 @@
+import numpy as np
+random_empty_array = np.empty((4, 2))
+zeros_array = np.zeros((3, 5))
+ones_array = np.ones((4, 3, 2))
+print("Random empty array (4x2):")
+print(random_empty_array)
+print("\nZeros array (3x5):")
+print(zeros_array)
+print("\nOnes array (4x3x2):")
+print(ones_array)
